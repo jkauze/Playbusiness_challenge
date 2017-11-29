@@ -39,7 +39,7 @@ class Investment < ApplicationRecord
        
       else
         discount   = ((0.05 * code.discount) / 100.to_f)
-        commission_discount = monthly_amount * discount
+        #commission_discount = monthly_amount * discount
       end
 
       commission_discount = monthly_amount * discount
